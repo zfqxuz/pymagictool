@@ -1,11 +1,11 @@
 import setuptools
 
-with open("README.md", "r") as fh:
+with open("README.md", "r", encoding='utf8') as fh:
   long_description = fh.read()
 
 setuptools.setup(
   name="pymagictool",
-  version="0.0.1",
+  version="0.0.3",
   author="ZL",
   author_email="zfqxuz@gmail.com",
   description="Great Vision of a no name",
@@ -15,7 +15,7 @@ setuptools.setup(
   packages=setuptools.find_packages(),
   classifiers=[
   "Programming Language :: Python :: 3",
-  "License :: OSI Approved :: MIT License",
+  "License :: OSI Approved :: GNU General Public License v3 (GPLv3) ",
   "Operating System :: OS Independent",
   ],
 )
